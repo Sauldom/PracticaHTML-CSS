@@ -14,9 +14,20 @@ header{
     padding:10px;
     margin-right: auto;
 }
+
+.header img:hover{
+    opacity: 0.8;
+}
+
 .header a{
     color:antiquewhite;
     text-decoration: none;
+}
+
+.header a:hover{
+    color:yellow;
+    transform: scale(1.1);
+    font-size: 1.1rem;
 }
 
 .header .button button{
