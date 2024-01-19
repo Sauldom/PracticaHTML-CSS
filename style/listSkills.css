@@ -6,3 +6,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.container-progress-bar{
+    display:block;
+    border:solid 5px black;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+}
