@@ -8,8 +8,129 @@
 }
 .container-progress-bar{
     display:block;
-    border:solid 5px black;
-    width: 20px;
-    height: 20px;
+    padding-right: 10px;
+    border:solid 2px black;
+    width: 120px;
+    height: 15px;
     z-index: 100;
+    border-radius: 15%;
+}
+.progress-bar1{
+    display: block;
+    background-color: red;
+    
+    animation-name: animated-bar1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar1{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 60px;
+        height: 15px;
+    }
+}
+.progress-bar2{
+    display: block;
+    background-color: red;
+    animation-name: animated-bar2;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar2{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 50px;
+        height: 15px;
+    }
+}
+.progress-bar3{
+    display: block;
+    background-color: red;
+    
+    animation-name: animated-bar3;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar3{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 40px;
+        height: 15px;
+    }
+}
+.progress-bar4{
+    display: block;
+    background-color: red;
+    
+    animation-name: animated-bar4;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar4{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 10px;
+        height: 15px;
+    }
+}
+.progress-bar5{
+    display: block;
+    background-color: red;
+    
+    animation-name: animated-bar5;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar5{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 90px;
+        height: 15px;
+    }
+}
+.progress-bar6{
+    display: block;
+    background-color: red;
+    
+    animation-name: animated-bar6;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animated-bar6{
+    0%{
+        width: 0px;
+        height: 15px;
+    }
+    100%{
+        width: 10px;
+        height: 15px;
+    }
 }
