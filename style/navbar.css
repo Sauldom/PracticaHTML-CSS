@@ -3,7 +3,8 @@ header{
     justify-content: flex-end;
     align-items: center;
     background-color: rgb(42, 35, 35);
-    padding: 5px;
+    padding: 0px;
+    margin: 0;
     
 }
 
