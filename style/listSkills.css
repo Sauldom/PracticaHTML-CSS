@@ -5,6 +5,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 15px;    
+    
 }
 .container-progress-bar{
     display:block;
