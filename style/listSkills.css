@@ -1,11 +1,12 @@
 .list-skills{
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 80px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;
+    position: relative;    
     
 }
 .container-progress-bar{

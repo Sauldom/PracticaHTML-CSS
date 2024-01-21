@@ -1,16 +1,19 @@
 .banner{
-    height: 75vh;
+    height: 65vh;
     position: relative;
+    
 }
 
 .banner__text{
-    text-align: center;
-    position: relative;    
+    text-align: center;   
     z-index: 1;
+    display: inline-block;
 }
 .banner__image{
     background-image: url('../images/maskedban.png');
     position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
     left: 0;
     right: 0;
     top:0;

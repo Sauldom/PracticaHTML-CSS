@@ -5,7 +5,9 @@ header{
     background-color: rgb(42, 35, 35);
     padding: 0px;
     margin: 0;
-    
+    position: fixed;
+    width: 100%;
+    z-index:100;
     
 }
 
