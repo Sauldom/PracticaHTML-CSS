@@ -18,4 +18,5 @@ main{
     display: inline-block;
     top: 80px;
     position: relative;
+    width: 100%;
 }

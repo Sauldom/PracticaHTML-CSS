@@ -1,0 +1,14 @@
+.visual{
+    width: 80%;
+    max-width: 1200px;
+    bottom: 20px;
+}
+.video-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.video-grid video{
+   width: 40%;
+   height: 40;
+}
