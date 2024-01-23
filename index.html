@@ -52,12 +52,63 @@
     <div id="form-container">
             <form>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-          
+            <input type="text" 
+                id="nombre" 
+                name="nombre" 
+                required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" 
+                id="apellidos" 
+                name="apellidos" 
+                required>
+                <label class="form__label" for="phone">Introduce el teléfono:</label>
+                <input
+                  class="form__input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="111-123-4567"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  value="123-123-1234"
+                  title="Format 111-123-4567">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          
+            <input type="email" 
+                id="email" 
+                name="email" 
+                required>
+                <fieldset class="form__radio">
+                    <legend>¿Como nos conociste?</legend>
+                    <div class="form__element__radio__list">
+                      <label for="universidad">Universidad</label>
+                      <input type="radio" id="universidad" name="favCategory" value="universidad" checked>
+                      <label for="Kc">Keepcoding kick-off</label>
+                      <input type="radio" id="Kc" name="favCategory" value="Kc">
+                      <label for="colegio">Colegio</label>
+                      <input type="radio" id="colegio" name="favCategory" value="colegio" checked>
+                      <label for="github">Github</label>
+                      <input type="radio" id="github" name="favCategory" value="github">
+                    </div>
+                  </fieldset>
+            
+            
+            <label for="form-newsletter">¿Quieres suscribirte a nuestra newsletter?</label>        
+            <input type="checkbox" 
+                name="boletin" 
+                id="form-boletin" />
+            
+            <label for="bio">Sobre ti:</label>
+            <textarea
+              name="bio"
+              id="form-bio"
+              cols="30"
+              rows="10"
+              placeholder="Cuéntame algo, no se lo diré a nadie"
+            ></textarea>
             <input type="submit" value="Enviar">
+            
+              </div>     
+            
             </form>
       </div>
     </header> 

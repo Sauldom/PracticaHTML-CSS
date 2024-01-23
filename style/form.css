@@ -27,6 +27,7 @@
     z-index: 1000;
     top:80px;
     border:solid 4px red;
+    background-color: var(--bg-color);
   }
 form{
     display:flex;
