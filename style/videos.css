@@ -1,8 +1,9 @@
 .visual{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
    border-bottom: 200px;
    align-items: center;
+   margin:0 auto;
    
 }
 .video-grid{
@@ -10,8 +11,18 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 10px;
+    opacity: 0;  /* Inicialmente, el elemento es completamente transparente */
+    animation: fadeIn 2s ease-in-out forwards;  /* Animación de 1.5 segundos con transición suave */
 }
-
+@keyframes fadeIn {
+    from {
+      opacity: 0;  
+    }
+    to {
+      opacity: 1;  
+    }
+}   
+ 
 .video-grid video, .video-grid iframe{
    width: 100%;
    height: 350px;
@@ -19,4 +30,7 @@
 }
 .video-grid video{
     cursor: pointer;
+}
+.visual h2{
+    margin-top: 0px;
 }

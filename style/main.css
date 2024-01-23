@@ -21,3 +21,7 @@ main{
     position: relative;
     width: 100%;
 }
+
+p{
+    max-width: 768px;
+}
