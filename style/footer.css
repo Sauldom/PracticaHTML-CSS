@@ -1,8 +1,9 @@
 .footer{    
-   position: sticky;
+   position: relative;
    display: block;
    background-color: rgb(169, 150, 150);
    padding: 10px;
+   bottom:0px;
 }
 .footer__content{
     display:flex;

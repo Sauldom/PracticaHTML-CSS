@@ -1,6 +1,5 @@
 .list-skills{
     list-style: none;
-    margin-bottom: 80px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;

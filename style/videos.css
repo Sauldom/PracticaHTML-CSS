@@ -1,14 +1,22 @@
 .visual{
-    width: 80%;
-    max-width: 1200px;
-    bottom: 20px;
+    width: 100%;
+    height: 80%;
+   border-bottom: 200px;
+   align-items: center;
+   
 }
 .video-grid{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
 }
 
+.video-grid video, .video-grid iframe{
+   width: 100%;
+   height: 350px;
+  
+}
 .video-grid video{
-   width: 40%;
-   height: 40;
+    cursor: pointer;
 }

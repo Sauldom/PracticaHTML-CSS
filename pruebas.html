@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Desplegable</title>
+  <style>
+    /* Oculta el input radio */
+    #toggle-form {
+      display: none;
+    }
+
+    /* Estilo del botón de alternar */
+    #toggle-label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    /* Estilo del formulario cuando el input está chequeado */
+    #form-container {
+      display: none;
+    }
+
+    #toggle-form:checked + #form-container {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Etiqueta del botón de alternar -->
+  <label id="toggle-label" for="toggle-form">Mostrar Formulario</label>
+
+  <!-- Input radio para el botón de alternar -->
+  <input type="checkbox" id="toggle-form">
+
+  <!-- Contenedor del formulario -->
+  <div id="form-container">
+    <!-- Aquí va tu formulario -->
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+</body>
+</html>

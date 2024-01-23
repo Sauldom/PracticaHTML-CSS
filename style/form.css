@@ -1,0 +1,35 @@
+#show-form {
+   /*display:none*/
+  }
+
+#show-label {
+    background:antiquewhite;
+    border-radius: 50px;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+  }
+
+ #show-label:hover{
+    background-color: brown;
+    color: yellow;
+ } 
+  #form-container {
+    display: none;
+    
+}
+
+  #show-form:checked + #form-container {
+    display:block;    
+    right: 0px;
+    position: fixed;
+    z-index: 1000;
+    top:80px;
+    border:solid 4px red;
+  }
+form{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
