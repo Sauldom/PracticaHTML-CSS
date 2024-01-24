@@ -7,7 +7,8 @@
    
 }
 .video-grid{
-    display:inline-grid;    
+    display:grid;
+    grid-template-columns: repeat(1,1fr);   
     grid-gap: 10px;
     opacity: 0;  
     animation: fadeIn 3s ease-in-out forwards; 
@@ -32,8 +33,20 @@
 .visual h2{
     margin-top: 0px;
 }
-
-@media (width>425px){    
+.proyects-grid .proyect-item{
+    filter:grayscale(60%);
+    width: 80%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.proyect-item:hover{
+    filter:none;
+}
+.proyects-grid{
+    display: grid;
+    grid-template-columns: repeat(50px 50px);    
+}
+@media (width>768px){    
     .video-grid{
         display:grid;
         grid-template-columns: repeat(2,1fr);
