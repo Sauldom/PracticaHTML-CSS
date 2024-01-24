@@ -34,4 +34,12 @@ header{
     transform: scale(1.1);
     font-size: 1.1rem;
 }
+.navbar-link{
+    display: none;
+}
 
+@media(width>768px){
+    .navbar-link{
+        display: inline;
+    }
+}
