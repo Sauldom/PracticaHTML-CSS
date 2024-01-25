@@ -11,10 +11,7 @@
     transition: all 0.3 ease 0s;
   }
 
- #show-label:hover{
-    background-color: brown;
-    color: yellow;
- } 
+ 
   #form-container {
     display: none;
     
@@ -34,3 +31,10 @@ form{
     justify-content: flex-end;
     flex-direction: column;
   }
+
+@media(hover:hover){
+  #show-label:hover{
+      background-color: brown;
+      color: yellow;
+  } 
+}

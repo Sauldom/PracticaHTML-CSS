@@ -20,20 +20,14 @@ header{
     margin-right: auto;
 }
 
-.header img:hover{
-    opacity: 0.8;
-}
+
 
 .header a{
     color:antiquewhite;
     text-decoration: none;
 }
 
-.header a:hover{
-    color:yellow;
-    transform: scale(1.1);
-    font-size: 1.1rem;
-}
+
 .navbar-link{
     display: none;
 }
@@ -41,5 +35,15 @@ header{
 @media(width>768px){
     .navbar-link{
         display: inline;
+    }
+}
+@media(hover:hover){
+    .header img:hover{
+         opacity: 0.8;
+    }
+    .header a:hover{
+        color:yellow;
+        transform: scale(1.1);
+        font-size: 1.1rem;
     }
 }
