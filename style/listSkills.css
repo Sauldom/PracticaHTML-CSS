@@ -8,7 +8,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 15px;
-    position: relative;    
+    position: relative;
+    margin-bottom: 0px;    
     
 }
 .container-progress-bar{
