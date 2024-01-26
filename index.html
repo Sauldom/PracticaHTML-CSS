@@ -51,32 +51,34 @@
                 <label id="show-label" for="show-form">Contacto</label>
                 <input type="checkbox" id="show-form">
     <div id="form-container">
-            <form>
+            <form method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" 
                 id="nombre" 
-                name="nombre" 
+                name="nombre"
+                placeholder="Introduce tu nombre" 
                 required>
             <label for="apellidos">Apellidos:</label>
             <input type="text" 
                 id="apellidos" 
-                name="apellidos" 
+                name="apellidos"
+                placeholder="Introduce tus apellidos" 
                 required>
-                <label class="form__label" for="phone">Introduce el teléfono:</label>
+                <label class="form__label" for="telefono">Introduce el teléfono:</label>
                 <input
                   class="form__input"
                   type="tel"
-                  id="phone"
-                  name="phone"
+                  id="telefono"
+                  name="telefono"
                   required
-                  placeholder="111-123-4567"
-                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                  value="123-123-1234"
-                  title="Format 111-123-4567">
+                  placeholder="666060606"
+                  pattern="[0-9]{9}"
+                  title="Format 123456789">
             <label for="email">Email:</label>
             <input type="email" 
                 id="email" 
-                name="email" 
+                name="email"
+                placeholder="programador@programador.com" 
                 required>
             <label for="githubtag">Tu tag de github</label>
             <input
@@ -88,13 +90,13 @@
                     <legend>¿Como nos conociste?</legend>
                     <div class="form__element__radio__list">
                       <label for="universidad">Universidad</label>
-                      <input type="radio" id="universidad" name="favCategory" value="universidad" checked>
+                      <input type="radio" id="universidad" name="categoriaFavo" value="universidad" checked>
                       <label for="Kc">Keepcoding kick-off</label>
-                      <input type="radio" id="Kc" name="favCategory" value="Kc">
+                      <input type="radio" id="Kc" name="categoriaFavo" value="Kc">
                       <label for="colegio">Colegio</label>
-                      <input type="radio" id="colegio" name="favCategory" value="colegio">
+                      <input type="radio" id="colegio" name="categoriaFavo" value="colegio">
                       <label for="github">Github</label>
-                      <input type="radio" id="github" name="favCategory" value="github">
+                      <input type="radio" id="github" name="categoriaFavo" value="github">
                     </div>
                   </fieldset>
             
@@ -114,7 +116,7 @@
               placeholder="Cuéntame algo, no se lo diré a nadie"
             ></textarea>
             <input type="submit" value="Enviar">
-            <button type="reset">Vaciar formulario</button>
+            <input type="reset" value="Borrar cambios">
 
               </div>     
             
