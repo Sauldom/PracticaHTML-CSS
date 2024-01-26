@@ -16,7 +16,13 @@
     display: none;
     
 }
-
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+#form-subscripcion{
+  margin-left: 10px;
+}
   #show-form:checked + #form-container {
     display:block;    
     right: 0px;

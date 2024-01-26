@@ -29,6 +29,15 @@ body{
     position: absolute;
     margin:0px;
 }
-h1,h2,h3{
-    font-weight: 800;
+.texto h1, .texto h2, .texto h3{
+    font-weight: 900;
+}
+h1{
+    color: var(--h1-color);    
+}
+h2{
+    color:var(--h2-color);
+}
+h3{
+    color: var(--h3-color);
 }

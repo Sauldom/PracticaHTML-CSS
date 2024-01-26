@@ -19,12 +19,11 @@
     width: 120px;
     height: 15px;
     z-index: 100;
-    border-radius: 15%;
+    border-radius: 12%;
 }
 .progress-bar1{
     display: block;
     background-color: red;
-    
     animation-name: animated-bar1;
     animation-duration: 4s;
     animation-delay: 1s;
