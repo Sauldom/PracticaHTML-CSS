@@ -7,12 +7,11 @@ Un programador anónimo que intenta desarrollar sus habilidades para el bien.
 DESCRIPCION
 
 La verdad es que no hay mucho que describir es una pagina web simple, con colores simples
-pensé que el diseño me iba a costar menos pero después de descartar un montón de cambios
-al final opte por algo simple porque se me hacía un poco bola.
+pensé que el diseño me iba a costar menos pero después de descartar un montón de cambios al final opte por algo simple porque se me hacía un poco bola.
 
-Al final me he dedicado a cumplir los requisitos
+Al final me he dedicado a cumplir los requisitos y a jugar menos con el diseño y más con la funcionalidad.
 
- lo único que al final hice un boton que desplegaba el formulario 
+Al final hice un boton que desplegaba el formulario 
 que me parecía importante en vez de hacer un menú burguer
 
 PAGINA INDEX
@@ -23,7 +22,7 @@ y de proyectos(que es la misma) y el menu deplegable del formulario
 
 El formulario lo he dejado también muy básico con los colores de la página y creo que cumple con lo que pedías
 de las validaciones y demás, podía haber trabajado más el diseño pero me pasa que al tener tan abiertas las opciones
-me bloqueo un poco a la hora de poner cosas.
+me bloqueo un poco a la hora de poner cosas, comprobé el payload y las validaciones en principio parace que funciona
 
 Puse un banner central con una imagen, ya sé que dijiste que había que cambiarla para el responsive, pero al cambiar las resoluciones 
 se veía bien y la dejé así, sino la puedo cambiar luego con una media query si no te convence.
@@ -47,7 +46,11 @@ un poco diferente para trabajar un poco el grid con en vez de la típica 4*4
 CONCLUSIONES
 
 Al final me fijé en algunas páginas por ahí y sobre todo en la tuya, el diseño es un poco meh o mas bien muy meh
-si sabes algún sitio que hablen un poco de recursos sobre diseño de los agradezco
+si sabes algún sitio que hablen un poco de recursos sobre diseño te lo agradezco porque muchas veces no sé ni por donde empezar
 
-lo del despliegue github
+hice una página 404 muy simple. 
+Metí también en el head varias etiquetas que parece que se usan bastante sobre todo en el seo y demás.
+
+Y sobre el responsive parece que se ve bien.
+
 
