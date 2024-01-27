@@ -3,7 +3,7 @@
   }
 
 #show-label {
-    background:antiquewhite;
+    background:#faebd7;
     border-radius: 50px;
     border: none;
     padding: 3px 10px;
@@ -20,18 +20,28 @@
   display: flex;
   align-items: center;
 }
-#form-subscripcion{
+.form__element__radio__list input[type="radio"]{
+  margin-left: 3px;
+}
+
+#form-newsletter{
   margin-left: 10px;
 }
-  #show-form:checked + #form-container {
+#show-form:checked + #form-container {
     display:block;    
     right: 0px;
     position: fixed;
     z-index: 1000;
     top:80px;
-    background-color: var(--bg-color);
-    padding: 5px;
+    background-color: var(--form-color);
+    padding: 5px;    
+    font-size:0.7em;
+    width: 50%;
+    height: 50%;
+    overflow-x: auto;
+    
   }
+
 form{
     display:flex;
     justify-content: flex-end;
