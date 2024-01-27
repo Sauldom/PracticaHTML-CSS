@@ -53,4 +53,7 @@ Metí también en el head varias etiquetas que parece que se usan bastante sobre
 
 Y sobre el responsive parece que se ve bien.
 
+Me dio un error al hacer el despliegue en git hub pero parece que funciona
+https://sauldom.github.io/PracticaHTML-CSS/index.html
+
 
