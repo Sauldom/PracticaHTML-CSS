@@ -30,6 +30,7 @@
     z-index: 1000;
     top:80px;
     background-color: var(--bg-color);
+    padding: 5px;
   }
 form{
     display:flex;

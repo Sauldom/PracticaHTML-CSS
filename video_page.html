@@ -39,79 +39,96 @@
 
 <body>
     <header class= "header">
-        <img src="images/programadormasked.png" alt="">
-       
+        <a class="logo-link-iz" href="#habilidades"><img class="logoiz" src="images/programadormasked.png" alt=""></a>
+        <a class="logo-link-cen" href="#habilidades"><img class="logocentral"src="images/logocentralmasked.png" alt=""></a>
         <nav class= "navbar">                
-                <a href="index.html">Principal</a>
+                <a href="index.html">Principal </a>
                 <label id="show-label" for="show-form">Contacto</label>
                 <input type="checkbox" id="show-form">
-    <div id="form-container">
-            <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" 
-                id="nombre" 
-                name="nombre" 
-                required>
-            <label for="apellidos">Apellidos:</label>
-            <input type="text" 
-                id="apellidos" 
-                name="apellidos" 
-                required>
-                <label class="form__label" for="phone">Introduce el teléfono:</label>
-                <input
-                  class="form__input"
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                  placeholder="111-123-4567"
-                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                  value="123-123-1234"
-                  title="Format 111-123-4567">
-            <label for="email">Email:</label>
-            <input type="email" 
-                id="email" 
-                name="email" 
-                required>
-                <fieldset class="form__radio">
-                    <legend>¿Como nos conociste?</legend>
-                    <div class="form__element__radio__list">
-                      <label for="universidad">Universidad</label>
-                      <input type="radio" id="universidad" name="favCategory" value="universidad" checked>
-                      <label for="Kc">Keepcoding kick-off</label>
-                      <input type="radio" id="Kc" name="favCategory" value="Kc">
-                      <label for="colegio">Colegio</label>
-                      <input type="radio" id="colegio" name="favCategory" value="colegio">
-                      <label for="github">Github</label>
-                      <input type="radio" id="github" name="favCategory" value="github">
+                <div id="form-container">
+                    <form method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" 
+                        id="nombre" 
+                        name="nombre"
+                        placeholder="Introduce tu nombre"
+                        pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" 
+                        required>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" 
+                        id="apellidos" 
+                        name="apellidos"
+                        placeholder="Introduce tus apellidos"
+                        pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" 
+                        required>
+                        <label class="form__label" for="telefono">Introduce el teléfono:</label>
+                        <input
+                          class="form__input"
+                          type="tel"
+                          id="telefono"
+                          name="telefono"
+                          required
+                          placeholder="666060606"
+                          pattern="[0-9]{9}"
+                          title="Format 123456789">
+                    <label for="email">Email:</label>
+                    <input type="email" 
+                        id="email" 
+                        name="email"
+                        placeholder="programador@programador.com" 
+                        required>
+                    <label for="githubtag">Tu tag de github</label>
+                    <input
+                        id="githubtag"
+                        type="text"
+                        name="githubtag"
+                        pattern="^@[^\s]+"
+                        title="Necesita una @ y cosas"
+                        placeholder="@github"
+                        required>
+                        <fieldset class="form__radio">
+                            <legend>¿Como nos conociste?</legend>
+                            <div class="form__element__radio__list">
+                              <label for="universidad">Universidad</label>
+                              <input type="radio" id="universidad" name="categoriaFavo" value="universidad" checked>
+                              <label for="Kc">Keepcoding kick-off</label>
+                              <input type="radio" id="Kc" name="categoriaFavo" value="Kc">
+                              <label for="colegio">Colegio</label>
+                              <input type="radio" id="colegio" name="categoriaFavo" value="colegio">
+                              <label for="github">Github</label>
+                              <input type="radio" id="github" name="categoriaFavo" value="github">
+                            </div>
+                          </fieldset>
+                    
+                    <div class="checkbox">
+                        <label for="form-newsletter">¿Quieres suscribirte a nuestra newsletter?</label>
+                        <input type="checkbox" 
+                        name="subscripcion" 
+                        id="form-subscripcion" />        
                     </div>
-                  </fieldset>
-            
-            
-            <label for="form-newsletter">¿Quieres suscribirte a nuestra newsletter?</label>        
-            <input type="checkbox" 
-                name="boletin" 
-                id="form-boletin" />
-            
-            <label for="bio">Sobre ti:</label>
-            <textarea
-              name="bio"
-              id="form-bio"
-              cols="30"
-              rows="10"
-              placeholder="Cuéntame algo, no se lo diré a nadie"
-            ></textarea>
-            <input type="submit" value="Enviar">
-
-              </div>     
-            
-            </form>
-      </div>
+                    
+                    
+                    
+                    <label for="bio">Sobre ti:</label>
+                    <textarea
+                      name="bio"
+                      id="form-bio"
+                      cols="30"
+                      rows="10"
+                      placeholder="Cuéntame algo, no se lo diré a nadie"
+                    ></textarea>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar cambios">
+        
+                      </div>     
+                    
+                    </form>
+              </div>
     </header>
-    <main>
+    <main id="habilidades">
         <div class="background">
             <div class="visual">
-                <h2>Aqui una demostracion audiovisual de mis habilidades</h2>
+                <h2 >Aqui una demostracion audiovisual de mis habilidades</h2>
                 <div class="video-grid">
                     <video src="videos/2088683_preview.mp4" autoplay  muted></video>
                     <video src="videos/BB_8d62640f-f309-4af9-8e35-8502516a9063_preview.mp4" controls muted></video>

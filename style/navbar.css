@@ -11,15 +11,26 @@ header{
     z-index:100;
     
 }
-
-.header img{
-    max-width: 50px;
-    max-width: 50px;
-    border-radius: 100%;
-    padding:10px;
+.logo-link-iz{
     margin-right: auto;
 }
+.logo-link-cen{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoiz{
+    max-width: 50px;    
+    border-radius: 100%;
+    padding:10px;
+}
+.logocentral{
+    max-width: 65px;
+    max-height: 65px;
+    opacity: 0.8;
+    padding:10px;
+    margin-left: auto;    
 
+}
 
 
 .header a{
@@ -39,7 +50,7 @@ header{
 }
 @media(hover:hover){
     .header img:hover{
-         opacity: 0.8;
+         opacity: 0.7;
     }
     .header a:hover{
         color:yellow;
